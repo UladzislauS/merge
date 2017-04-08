@@ -1,4 +1,4 @@
-module.export = function merge(first, second) {
+module.exports = function merge(first, second) {
     // creating Object instances for primitives
     let firstObject = new Object(first);
     let secondObject = new Object(second);
