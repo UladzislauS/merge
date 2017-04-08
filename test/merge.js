@@ -1,5 +1,5 @@
 let expect = require('chai').expect;
-let merge = require('../src/index');
+let merge = require('../src/merge');
 
 describe('Merge function', () => {
 	class Case {
