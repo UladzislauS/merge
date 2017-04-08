@@ -6,3 +6,9 @@ Sourse objects are not changed.
 ```
 npm i deep-merge-objects
 ```
+
+```javascript
+let merge = require('deep-merge-objects');
+
+console.log(merge({a:'a'}, {b: 'b'}));
+```
