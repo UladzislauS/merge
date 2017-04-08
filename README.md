@@ -11,5 +11,5 @@ Require:
 ```javascript
 let merge = require('deep-merge-objects');
 
-console.log(merge({a:'a'}, {b: 'b'}));
+merge({a:'a'}, {b: 'b'});
 ```
