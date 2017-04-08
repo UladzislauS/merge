@@ -3,6 +3,13 @@ This function merges two objects. Non-primitive properties are merged recursivel
 Sourse objects are not changed.
 
 # Using
+Install:
 ```
 npm i deep-merge-objects
+```
+Require:
+```javascript
+let merge = require('deep-merge-objects');
+
+merge({a:'a'}, {b: 'b'});
 ```
